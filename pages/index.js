@@ -10,7 +10,7 @@ export default function Home() {
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <img src="/Logo.png" alt="Bastion logo" layout="fixed"></img>
-        <h1 className="text-6xl md:text-9xl lg:text-{900px}">Bastion</h1>
+        <h1 className="text-6xl md:text-9xl lg:text-{900px}">BASTION</h1>
         <br/>
         <br />
 
