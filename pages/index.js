@@ -6,7 +6,6 @@ export default function Home() {
       <Head>
         <title>Bastion</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="google-site-verification" content="UH6DfuA-sxmYsswGpSzQQCU0l8Acf2OS7xMhwiTIVac" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
