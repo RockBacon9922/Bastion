@@ -17,11 +17,12 @@ export default function Home() {
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
+        <p
+          className="flex items-center justify-center text-center"
         >
-          Under Construction by RockBacon
-        </a>
+          Under Construction by RockBacon <br /> A Young Enterprise Company
+        </p>
+        <br />
       </footer>
     </div>
   )
