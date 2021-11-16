@@ -5,14 +5,14 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
         <title>Bastion</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico?v=2" />
       </Head>
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <img src="/Logo.png" alt="Bastion logo" layout="fixed"></img>
         <h1 className="text-6xl md:text-9xl lg:text-{900px}">BASTION</h1>
         <br/>
-        <br />
+        <br/>
 
       </main>
 
