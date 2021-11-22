@@ -35,4 +35,6 @@ yarn-error.log*
 
 fallback*
 sw.js
+sw.js.map
+workbox*
 workbox
