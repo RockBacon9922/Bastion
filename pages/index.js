@@ -1,6 +1,9 @@
+import { Router } from "next/dist/client/router";
 import Head from "next/head";
+import { useRouter } from "next/dist/client/router";
 
 export default function Home() {
+  const router = useRouter()
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -17,12 +20,14 @@ export default function Home() {
       </main>
 
       <footer className="flex items-center justify-center w-full h-24 border-t">
-        <p
-          className="flex items-center justify-center text-center"
+        <div
+          className="flex flex-col items-center justify-center text-center"
         >
-          Under Construction by RockBacon <br /> A Young Enterprise Company
+          <p onClick={() => {router.push("https://github.com/rockbacon9922")}}>A RockBacon Website</p>
+        <p>
+        A Young Enterprise Company
         </p>
-        <br />
+        </div>
       </footer>
     </div>
   )
