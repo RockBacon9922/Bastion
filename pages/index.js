@@ -1,9 +1,13 @@
 import { Router } from "next/dist/client/router";
 import Head from "next/head";
 import { useRouter } from "next/dist/client/router";
+import Image from "next/image";
 
 export default function Home() {
   const router = useRouter()
+  function togithub() {
+    router.push("https://github.com/rockbacon9922")
+  }
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
@@ -23,7 +27,7 @@ export default function Home() {
         <div
           className="flex flex-col items-center justify-center text-center"
         >
-          <p onClick={() => {router.push("https://github.com/rockbacon9922")}}>A RockBacon Website</p>
+          <p onClick={togithub} onKeyPress={togithub}className="hover:text-gray-500">A RockBacon Website</p>
         <p>
         A Young Enterprise Company
         </p>
