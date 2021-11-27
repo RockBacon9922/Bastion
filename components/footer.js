@@ -8,7 +8,7 @@ export default () => {
     }
 
     return   <footer className="flex items-center justify-center w-full h-24 border-t flex-col text-center">
-    <p onClick={togithub} onKeyPress={togithub}className="hover:text-gray-500">
+    <p onClick={togithub} onKeyPress={togithub} className="hover:text-gray-500">
       A RockBacon Website
     </p>
     <p>
