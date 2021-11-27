@@ -3,8 +3,8 @@ import Image from "next/image";
 export default () => {
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2 px-20 w-full bg-gray-500">
-        
-    </div>
+    <main className="flex flex-col">
+        <Image quality={5} layout="intrinsic" width={3487} height={2621} src="/Logo.svg" alt="Bastion logo" className="slide-in-and-rotate" />
+    </main>
   )
 }
