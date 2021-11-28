@@ -1,8 +1,12 @@
-import { useRouter } from "next/dist/client/router"
+import { useRouter } from "next/router"
+import { useEffect } from "react"
 
 export default () => {
     const routeTo = useRouter().push
     const router = useRouter()
+    useEffect(() => {
+        router.prefetch("/")
+    })
 
     return <navbar className="h-14 flex gap-7 shadow-md fixed w-full z-50 bg-white">
         <img quality={5} layout="responsive" src="/Logo.svg" alt="Bastion logo" className="hover:bg-gray-100" onClick={() => routeTo("/")} onKeyPress={() => routeTo("/")}/>
@@ -16,7 +20,9 @@ const ROCK = function(props){
         router.push(props.route)
         }
     const router = useRouter()
-    router.prefetch(props.route)
+    useEffect(() => {
+        router.prefetch(props.route)
+    })
     return <div className="flex p-4 hover:bg-gray-100">
         <div role="button" onClick={routeTo} onKeyPress={routeTo} className="text-center self-center text-xl" alt={props.txt}>{props.txt}</div>
     </div>
