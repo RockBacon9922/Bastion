@@ -7,7 +7,8 @@ export default function Layout({ children }) {
     <>
       <Head />
       <Navbar />
-      <div className="h-14"/>
+      {/* Below gives a gap so that the footer doesn't end up moshed into the navbar👍 */}
+      <div className="h-14 xl:h-[4rem]"/>
       <main>{children}</main>
       <Footer />
     </>
