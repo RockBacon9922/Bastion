@@ -1,4 +1,4 @@
-import { useRouter } from "next/dist/client/router"
+import { useRouter } from "next/router"
 
 export default () => {
 
@@ -14,7 +14,7 @@ export default () => {
     <p>
     A Young Enterprise Company
     </p>
-    <p onClick={mailToUs} onKeyPress={mailToUs}>
+    <p onClick={mailToUs} onKeyPress={mailToUs} className="hover:text-gray-500">
       Bastion@bethanyschool.org.uk
     </p>
   </footer>
