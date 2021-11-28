@@ -7,18 +7,6 @@
     }
   }
 
-
-
 .image-container {
   animation: FadeIn 2s ease 0s 1 normal;
-  width: 66vw;
-  height: 80vh;
-  position: relative;
-
-  .image {
-      width: 100%;
-      height: 100%;
-      position: relative !important;
-      object-fit: cover;
-  }
 }
