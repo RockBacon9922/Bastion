@@ -1,5 +1,9 @@
+import router from "next/router"
+import { useEffect } from "react"
 export default () => {
-
+    useEffect(() => {
+        router.prefetch("/teaLights.png")
+    })
     return <main>
 
         <div className="flex flex-col m-4">
