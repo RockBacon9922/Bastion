@@ -5,7 +5,7 @@ export default () => {
         router.prefetch("/teaLights.png")
     })
     return <main>
-
+        <link rel="preload" as="image" href="/teaLights.png"/>
         <div className="flex flex-col m-4">
             <div className="flex flex-col md:flex-row justify-center pt-4 gap-10">
                 <img src="/teaLights.png" alt="Tea Lights made from natural materials" loading="eager" className="object-contain w-full h-1/2 md:h-auto md:w-2/4 fade-in"/>
