@@ -8,7 +8,7 @@ export default () => {
         router.prefetch("/")
     })
 
-    return <navbar className="h-14 xl:h-[4rem] flex md:gap-7 shadow-md fixed w-full z-50 text-xl lg:text-2xl xl:text-3xl bg-white">
+    return <navbar className="h-14 flex gap-7 shadow-md fixed w-full z-50 text-xl bg-white">
         <img quality={5} layout="responsive" src="/Logo.svg" alt="Bastion logo" className="hover:bg-gray-100" onClick={() => routeTo("/")} onKeyPress={() => routeTo("/")}/>
         <ROCK txt="Coasters" route="/Coasters"/>
         <ROCK txt="Tea Lights" route="/TeaLights"/>
