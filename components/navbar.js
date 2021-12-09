@@ -24,6 +24,6 @@ const ROCK = function(props){
         router.prefetch(props.route)
     })
     return <div className="flex p-4 hover:bg-gray-100">
-        <button onClick={routeTo} onKeyPress={routeTo} className="text-center self-center" alt={props.txt}>{props.txt}</button>
+        <button onClick={routeTo} onKeyPress={routeTo} className="text-center self-center navButton" alt={props.txt}>{props.txt}</button>
     </div>
 }

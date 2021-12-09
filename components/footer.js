@@ -10,7 +10,7 @@ export default () => {
       window.open("mailto:Bastion@bethanyschool.org.uk")
     }
 
-    return   <footer className="flex items-center justify-center w-full h-24 border-t flex-col text-center">
+    return   <footer className="flex items-center justify-center w-full h-24 border-t flex-col text-center z-50">
     <p>
     A Young Enterprise Company
     </p>

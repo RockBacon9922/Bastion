@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @tailwind base; /* Preflight will be injected here */
 
 @tailwind components;
 
 @tailwind utilities;
-
 
 @keyframes FadeIn {
     0% {
@@ -17,3 +17,16 @@
 .fade-in {
   animation: FadeIn 2s ease 0s 1 normal;
 }
+
+@layer utilities {
+  .inset-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .navButton {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
