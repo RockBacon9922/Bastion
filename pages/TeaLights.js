@@ -2,7 +2,7 @@ export default () => {
 
     function ToProduct() {
         window.open("https://www.ye-tradingstation.org.uk/product/standard-tea-light")
-      }
+    }
 
     return <main>
         <link rel="preload" as="image" href="/teaLights.png"/>
