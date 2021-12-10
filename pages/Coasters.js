@@ -16,7 +16,7 @@ export default () => {
                     Hand made out of high quality Ash or Birch.
                     Beautifully finished with tung oil (sometimes known as china wood oil)
                     which is obtained by pressing the seed from the nut of the tung tree.
-                    The natural finish gives it inflammable properties and water resistant properties.
+                    The natural finish gives it inflammable and water resistant properties.
                     </h2>
                     <br />
                     <button className="border-2 border-black pl-2 pr-2 p-2" onClick={ToProduct}>Purchase Here!</button>
