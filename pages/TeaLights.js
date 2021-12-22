@@ -14,7 +14,7 @@ export default () => {
                     <br/>
                     <h2>
                     Hand made out of high quality Ash or Birch.
-                    Beautifully finished with tung oil (sometimes known as china wood)
+                    Beautifully finished with tung oil (sometimes known as china wood oil)
                     which is obtained by pressing the seed from the nut of the tung tree.
                     The natural finish gives it inflammable and water resistant properties.
                     </h2>
