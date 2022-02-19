@@ -10,7 +10,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "AllProducts": "url('/AllProducts.jpg')",
+        "AllProducts": "url('/AllProducts.webp')",
       }
     },
   },
