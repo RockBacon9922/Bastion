@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "tung"
-    ]
+    ],
+    "python.pythonPath": "/usr/bin/python3"
 }

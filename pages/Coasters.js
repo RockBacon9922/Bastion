@@ -5,10 +5,10 @@ export default () => {
     }
 
     return <main>
-        <link rel="preload" as="image" href="/Coasters.png"/>
+        <link rel="preload" as="image" href="/Coasters.jpg"/>
         <div className="flex flex-col m-4">
             <div className="flex flex-col md:flex-row justify-center pt-4 gap-10">
-                <img src="/Coasters.png" alt="Coasters made from natural materials" loading="eager" className="object-contain w-full h-1/2 md:h-auto md:w-2/4 fade-in"/>
+                <img src="/Coasters.jpg" alt="Coasters made from natural materials" loading="eager" className="object-contain w-full h-1/2 md:h-auto md:w-2/4 fade-in"/>
                 <article className="w-full md:w-1/3 text-center self-center">
                     <h1 className="text-3xl">Coasters</h1>
                     <br/>
