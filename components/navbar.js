@@ -15,7 +15,7 @@ export default () => {
     </navbar>
 }
 
-const ROCK = function(props){
+const ROCK = (props) => {
     function routeTo() {
         router.push(props.route)
         }
@@ -23,7 +23,7 @@ const ROCK = function(props){
     useEffect(() => {
         router.prefetch(props.route)
     })
-    return <div className="flex p-4 hover:bg-gray-100">
-        <button onClick={routeTo} onKeyPress={routeTo} className="text-center self-center navButton" alt={props.txt}>{props.txt}</button>
+    return <div className="flex p-4 hover:bg-gray-100" onClick={routeTo} onKeyPress={routeTo}>
+        <button className="text-center self-center navButton" alt={props.txt}>{props.txt}</button>
     </div>
 }
