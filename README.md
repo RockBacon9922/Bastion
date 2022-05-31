@@ -1,9 +1,9 @@
 # Bastion
 
-Bastion was a Young Enterprise Comapny that I was envolved in 2021-22. We were pretty successful with our products and this is the webpage that I designed and built for the comapny for one of our product lines. 
+Bastion was a Young Enterprise Company that I was involved in 2021-22. We were pretty successful with our products and this is the webpage that I designed and built for the company for one of our product lines.
 
 Whilst the domain is still active the website can be found at bastion.org.uk 
-When this eventually runs out it can be found at bastion-baj.pages.dev
+When this eventually becomes unactive the website can still be found at bastion-baj.pages.dev
 
 I used a mixture of nextjs, tailwindcss, cloudflare pages and their domain management features to create this site.
 
